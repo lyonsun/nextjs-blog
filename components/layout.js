@@ -1,9 +1,10 @@
 import styles from './layout.module.css';
+import Header from './header';
 
 export default function Layout({ children }) {
     return (
         <>
-            <header>This is navbar</header>
+            <Header />
             <main>{children}</main>
         </>
     );
