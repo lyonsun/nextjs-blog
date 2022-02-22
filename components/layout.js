@@ -5,7 +5,7 @@ export default function Layout({ children }) {
     return (
         <>
             <Header />
-            <main>{children}</main>
+            <main className='mt-[100px]'>{children}</main>
         </>
     );
 }
