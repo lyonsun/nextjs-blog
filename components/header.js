@@ -1,12 +1,25 @@
 import Link from "next/link"
 
 function handleClick() {
-    document.getElementById("mobile-menu").classList.toggle("translate-x-full");
-
     if (document.getElementById('btn-mobile-menu-toggle').getAttribute('aria-expanded') == 'false') {
         document.getElementById('btn-mobile-menu-toggle').setAttribute('aria-expanded', 'true');
+        document.getElementById("mobile-menu").classList.add("invisible");
+        document.getElementById("mobile-menu").firstChild.classList.add("translate-x-full");
+        document.getElementById("mobile-menu").firstChild.classList.add("opacity-0");
     } else {
         document.getElementById('btn-mobile-menu-toggle').setAttribute('aria-expanded', 'false');
+        document.getElementById("mobile-menu").classList.remove("invisible");
+        document.getElementById("mobile-menu").firstChild.classList.remove("translate-x-full");
+        document.getElementById("mobile-menu").firstChild.classList.remove("opacity-0");
+    }
+}
+
+function handleBackDropClick(e) {
+    if (e.target.id !== 'mobile-menu__nav') {
+        document.getElementById('btn-mobile-menu-toggle').setAttribute('aria-expanded', 'false');
+        document.getElementById("mobile-menu").classList.add("invisible");
+        document.getElementById("mobile-menu").firstChild.classList.add("translate-x-full");
+        document.getElementById("mobile-menu").firstChild.classList.add("opacity-0");
     }
 }
 
@@ -42,8 +55,8 @@ export default function Header() {
             </button>
 
             {/* mobile menu */}
-            <div id="mobile-menu" className="md:hidden fixed right-0 top-0 h-full w-1/2 min-w-[240px] z-[998] p-10 bg-violet-200 translate-x-full transition-all ease-in-out duration-500">
-                <nav className='h-full flex flex-col items-end justify-end gap-8'>
+            <div id="mobile-menu" className="md:hidden fixed right-0 top-0 h-full w-full z-[998] bg-gray-800 bg-opacity-80 flex justify-end invisible" onClick={handleBackDropClick}>
+                <nav id="mobile-menu__nav" className='h-full w-1/2 min-w-[240px] p-10 bg-gradient-to-br from-violet-600 to-violet-100 flex flex-col items-end justify-end gap-8 translate-x-full opacity-0 transition-all ease-in-out duration-500'>
                     <Link href='/'>
                         <a className="hover:underline hover:underline-offset-8 hover:mr-2 transition-all ease-linear duration-300">Home</a>
                     </Link>
