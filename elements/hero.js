@@ -3,7 +3,7 @@ import Link from "next/link"
 export default function Hero() {
     return (
         <section className="bg-[#f9f9fc] hero">
-            <div className="relative px-5 py-8 max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-y-10 items-center transition-all ease-linear duration-300">
+            <div className="relative px-5 py-8 max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center transition-all ease-linear duration-300">
                 <div className="hero__text max-w-md mx-auto md:mx-0 text-center md:text-left">
                     <h1 className="uppercase text-indigo-600 font-medium">Liang Sun</h1>
                     <div className="py-8 font-bold text-4xl leading-[60px] lg:text-6xl lg:leading-[78px] text-[#333333] transition-all ease-linear duration-300">
