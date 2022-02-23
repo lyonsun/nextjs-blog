@@ -2,7 +2,7 @@ import CountUp from "react-countup"
 
 export default function Experience() {
     return (
-        <section className="experience py-20 max-w-[1200px] mx-auto">
+        <section className="experience px-5 py-20 max-w-[1200px] mx-auto">
             <ul className="grid grid-cols-2 md:grid-cols-4 gap-y-12 place-items-center">
                 <li className="flex flex-col items-center">
                     <span className="font-semibold text-5xl leading-[56px] mb-2"><CountUp end={100} />+ </span>
