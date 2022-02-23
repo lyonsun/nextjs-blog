@@ -1,8 +1,9 @@
+import Image from "next/image"
 import Link from "next/link"
 
 export default function Hero() {
     return (
-        <section className="bg-[#f9f9fc] hero">
+        <section className="hero bg-[#f9f9fc]">
             <div className="relative px-5 py-8 max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center transition-all ease-linear duration-300">
                 <div className="hero__text max-w-md mx-auto md:mx-0 text-center md:text-left">
                     <h1 className="uppercase text-indigo-600 font-medium">Liang Sun</h1>
@@ -21,8 +22,10 @@ export default function Hero() {
 
                 <div className="hero__image">
                     <div className="relative max-w-[500px] mx-auto">
-                        <img className="w-full h-full" src="/images/avatar-bg.svg" alt="Avatar ackground frame" />
-                        <img className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] rounded-full w-5/6 aspect-square object-cover" src="/images/me.jpeg" alt="Liang Sun" />
+                        <Image width="500" height="500" layout="responsive" src="/images/avatar-bg.svg" alt="Avatar background frame" />
+                        <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-5/6">
+                            <Image width="500" height="500" layout="responsive" objectFit="cover" objectPosition="center" className="rounded-full" src="/images/me.jpeg" alt="Liang Sun" />
+                        </div>
                     </div>
                 </div>
             </div>

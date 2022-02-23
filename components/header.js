@@ -51,7 +51,7 @@ export default function Header() {
                 </Link>
 
                 {/* hamburger menu */}
-                <button className='cursor-pointer md:hidden z-20' id="btn-mobile-menu-toggle" aria-controls="mobile-menu" aria-expanded="false" onClick={handleClick}>
+                <button className='cursor-pointer md:hidden z-20' id="btn-mobile-menu-toggle" aria-label="Mobile Menu Toggle" aria-controls="mobile-menu" aria-expanded="false" onClick={handleClick}>
                     <i className="fa-solid fa-bars h-9 w-9 flex justify-center items-center"></i>
                 </button>
 
