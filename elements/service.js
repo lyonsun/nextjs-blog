@@ -28,7 +28,7 @@ export default function Service() {
                         <Image width="42" height="42" layout="fixed" src="/images/service-product-design.svg" alt="Product Design Service Image" />
                     </div>
                     <div className="card__text">
-                        <h2 className="font-medium text-primary-600 mb-2">Product Design</h2>
+                        <h2 className="font-medium text-primary-600 mb-2">Web Development</h2>
                         <div className="text-gray opacity-70 max-w-xl mx-auto">lorem ipsum dolor sit amet consectur adi pising leo</div>
                     </div>
                 </div>
@@ -37,7 +37,7 @@ export default function Service() {
                         <Image width="42" height="42" layout="fixed" src="/images/service-motion-graphics.svg" alt="Motion Graphics Service Image" />
                     </div>
                     <div className="card__text">
-                        <h2 className="font-medium text-primary-600 mb-2">Motion Graphics</h2>
+                        <h2 className="font-medium text-primary-600 mb-2">System Architecture</h2>
                         <div className="text-gray opacity-70 max-w-xl mx-auto">lorem ipsum dolor sit amet consectur adi pising leo</div>
                     </div>
                 </div>

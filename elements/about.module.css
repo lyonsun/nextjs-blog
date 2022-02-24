@@ -1,0 +1,19 @@
+.bg-about {
+    background-image: url("/images/about-background.svg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: auto 90%;
+}
+
+@media screen and (max-width: 768px) {
+    .bg-about {
+        background-size: 60%;
+    }
+}
+
+.about__inner {
+    background-image: url("/images/about-background-2.svg");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 10%;
+}
