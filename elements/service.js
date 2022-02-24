@@ -14,7 +14,7 @@ export default function Service() {
                 </div>
             </div>
             <div className="cards grid grid-cols-1 md:grid-cols-3 gap-10 place-items-center">
-                <div className="card hover:bg-neutral text-center px-8 py-12 rounded-3xl shadow-2xl">
+                <div className="card hover:bg-neutral text-center px-8 py-12 rounded-3xl shadow-2xl transition-colors ease-in duration-100">
                     <div className="card__image mb-8">
                         <Image width="42" height="42" layout="fixed" src="/images/service-ui-ux-design.svg" alt="UX/UI Design Service Image" />
                     </div>
@@ -23,7 +23,7 @@ export default function Service() {
                         <div className="text-gray opacity-70 max-w-xl mx-auto">lorem ipsum dolor sit amet consectur adi pising leo</div>
                     </div>
                 </div>
-                <div className="card hover:bg-neutral text-center px-8 py-12 rounded-3xl shadow-2xl">
+                <div className="card hover:bg-neutral text-center px-8 py-12 rounded-3xl shadow-2xl transition-colors ease-in duration-100">
                     <div className="card__image mb-8">
                         <Image width="42" height="42" layout="fixed" src="/images/service-product-design.svg" alt="Product Design Service Image" />
                     </div>
@@ -32,7 +32,7 @@ export default function Service() {
                         <div className="text-gray opacity-70 max-w-xl mx-auto">lorem ipsum dolor sit amet consectur adi pising leo</div>
                     </div>
                 </div>
-                <div className="card hover:bg-neutral text-center px-8 py-12 rounded-3xl shadow-2xl">
+                <div className="card hover:bg-neutral text-center px-8 py-12 rounded-3xl shadow-2xl transition-colors ease-in duration-100">
                     <div className="card__image mb-8">
                         <Image width="42" height="42" layout="fixed" src="/images/service-motion-graphics.svg" alt="Motion Graphics Service Image" />
                     </div>
