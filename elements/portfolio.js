@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function Portfolio() {
     return (
-        <section className="portfolio py-16 md:py-32">
+        <section className="portfolio pt-12 pb-16 md:pb-32">
             <div className="max-w-[1200px] mx-auto px-5">
                 <div className="portfolio__heading grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 text-center md:text-left mb-8 md:mb-12">
                     <div className="heading-text relative">
@@ -17,7 +17,7 @@ export default function Portfolio() {
                     </div>
                 </div>
                 <div className="portfolio__list grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10">
-                    <div className="portfolio__card rounded-3xl shadow-2xl overflow-hidden hover:shadow-primary-100 hover:scale-[1.02] transition ease-linear duration-300">
+                    <div className="portfolio__card rounded-3xl shadow-2xl overflow-hidden hover:scale-[1.02] transition ease-linear duration-300">
                         <div className="portfolio__featured-image w-full aspect-[3/2] bg-light-gray">
                             <Image width="600" height="400" layout="responsive" src={`https://unsplash.it/id/${Math.floor(Math.random() * 100)}/400/200`} alt="Portfolio Image" />
                         </div>
@@ -26,7 +26,7 @@ export default function Portfolio() {
                             <div className="text-gray opacity-70">UI/UX Design</div>
                         </div>
                     </div>
-                    <div className="portfolio__card rounded-3xl shadow-2xl overflow-hidden hover:shadow-primary-100 hover:scale-[1.02] transition ease-linear duration-300">
+                    <div className="portfolio__card rounded-3xl shadow-2xl overflow-hidden hover:scale-[1.02] transition ease-linear duration-300">
                         <div className="portfolio__featured-image w-full aspect-[3/2] bg-light-gray">
                             <Image width="600" height="400" layout="responsive" src={`https://unsplash.it/id/${Math.floor(Math.random() * 100)}/400/200`} alt="Portfolio Image" />
                         </div>
@@ -35,7 +35,7 @@ export default function Portfolio() {
                             <div className="text-gray opacity-70">UI/UX Design</div>
                         </div>
                     </div>
-                    <div className="portfolio__card rounded-3xl shadow-2xl overflow-hidden hover:shadow-primary-100 hover:scale-[1.02] transition ease-linear duration-300">
+                    <div className="portfolio__card rounded-3xl shadow-2xl overflow-hidden hover:scale-[1.02] transition ease-linear duration-300">
                         <div className="portfolio__featured-image w-full aspect-[3/2] bg-light-gray">
                             <Image width="600" height="400" layout="responsive" src={`https://unsplash.it/id/${Math.floor(Math.random() * 100)}/400/200`} alt="Portfolio Image" />
                         </div>
@@ -44,7 +44,7 @@ export default function Portfolio() {
                             <div className="text-gray opacity-70">UI/UX Design</div>
                         </div>
                     </div>
-                    <div className="portfolio__card rounded-3xl shadow-2xl overflow-hidden hover:shadow-primary-100 hover:scale-[1.02] transition ease-linear duration-300">
+                    <div className="portfolio__card rounded-3xl shadow-2xl overflow-hidden hover:scale-[1.02] transition ease-linear duration-300">
                         <div className="portfolio__featured-image w-full aspect-[3/2] bg-light-gray">
                             <Image width="600" height="400" layout="responsive" src={`https://unsplash.it/id/${Math.floor(Math.random() * 100)}/400/200`} alt="Portfolio Image" />
                         </div>
