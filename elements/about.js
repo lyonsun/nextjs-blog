@@ -9,7 +9,7 @@ export default function About() {
             <div className={styles["about__inner"]}>
                 <div className="px-5 py-24 max-w-[1200px] mx-auto">
                     <div className="about__content max-w-[600px] mx-auto md:mx-0 text-center md:text-left transition-all ease-in-out duration-300">
-                        <h2 className="uppercase text-primary-600 font-medium">Web Developer</h2>
+                        <h1 className="uppercase text-primary-600 font-medium">Web Developer</h1>
                         <div className="py-8 font-bold text-4xl leading-[60px] lg:text-6xl lg:leading-[78px] text-dark-gray transition-all ease-linear duration-300">Web Developer With 10 Years Of Experience.</div>
                         <div className="text-gray opacity-70">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae blandit lectus. Praesent at hendrerit velit, at dictum nisl.</div>
                         <div className="mt-8">

@@ -22,9 +22,9 @@ export default function Hero() {
 
                 <div className="hero__image">
                     <div className="relative max-w-[500px] mx-auto">
-                        <Image width="500" height="500" layout="responsive" src="/images/avatar-bg.svg" alt="Avatar background frame" />
+                        <Image width="500" height="500" layout="responsive" priority={true} src="/images/avatar-bg.svg" alt="Avatar background frame" />
                         <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-5/6">
-                            <Image width="500" height="500" layout="responsive" objectFit="cover" objectPosition="center" className="rounded-full" src="/images/me.jpeg" alt="Liang Sun" />
+                            <Image width="500" height="500" layout="responsive" priority={true} objectFit="cover" objectPosition="center" className="rounded-full" src="/images/me.jpeg" alt="Liang Sun" />
                         </div>
                     </div>
                 </div>

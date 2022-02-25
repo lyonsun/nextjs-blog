@@ -4,6 +4,7 @@ import Experience from "../elements/experience";
 import Service from "../elements/service";
 import About from "../elements/about";
 import Clients from "../elements/clients";
+import Portfolio from "../elements/portfolio";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Service />
       <About />
       <Clients />
+      <Portfolio />
     </Layout>
   )
 }

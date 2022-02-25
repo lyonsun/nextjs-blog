@@ -9,7 +9,7 @@ export default function Service() {
                 </div>
                 <div className="heading__text">
                     <h1 className="uppercase font-medium text-primary-600">Services</h1>
-                    <div className="font-semibold text-5xl leading-[56px] mt-2 mb-3">What I Do For My Customer.</div>
+                    <div className="font-semibold text-3xl lg:text-5xl leading-[56px] mt-2 mb-3">What I Do For My Customer.</div>
                     <div className="text-gray opacity-70 max-w-xl mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae blandit lectus. Praesent at hendrerit velit, at dictum nisl.</div>
                 </div>
             </div>
