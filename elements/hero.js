@@ -5,7 +5,7 @@ export default function Hero() {
     return (
         <section className="hero bg-neutral">
             <div className="relative px-5 py-8 max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center transition-all ease-linear duration-300">
-                <div className="hero__text max-w-md mx-auto md:mx-0 text-center md:text-left">
+                <div className="hero__text px-2 text-center md:text-left">
                     <h1 className="uppercase text-primary-600 font-medium">Liang Sun</h1>
                     <div className="py-8 font-bold text-4xl leading-[60px] lg:text-6xl lg:leading-[78px] text-dark-gray transition-all ease-linear duration-300">
                         Hello, my name is Liang. I'm web developer.
@@ -15,7 +15,7 @@ export default function Hero() {
                             <a className="uppercase px-10 py-6 text-white bg-primary-600 rounded-full text-sm font-medium border border-primary-600 hover:text-primary-600 hover:bg-white transition-colors ease-linear duration-300"><i className="fa-regular fa-envelope mr-2"></i> CONTACT ME</a>
                         </Link>
                         <Link href="/cv/curriculum-vitae-x.pdf">
-                            <a className="uppercase px-10 py-6 text-dark-gray text-sm font-medium rounded-full border border-white hover:bg-white transition-colors ease-linear duration-300" download target='__blank'><i className="fa-solid fa-download mr-2"></i> DOWNLOAD CV</a>
+                            <a className="uppercase px-10 py-6 text-dark-gray text-sm font-medium rounded-full hover:bg-primary-100 transition-colors ease-linear duration-300" download target='__blank'><i className="fa-solid fa-download mr-2"></i> DOWNLOAD CV</a>
                         </Link>
                     </div>
                 </div>

@@ -56,7 +56,7 @@ export default function Header() {
                 </button>
 
                 {/* mobile menu */}
-                <div id="mobile-menu" className="md:hidden fixed right-0 top-0 h-full w-full z-10 bg-gray-800 bg-opacity-80 flex justify-end invisible" onClick={handleBackDropClick}>
+                <div id="mobile-menu" className="md:hidden fixed right-0 top-0 h-full w-full z-10 bg-gray bg-opacity-80 flex justify-end invisible" onClick={handleBackDropClick}>
                     <nav id="mobile-menu__nav" className='h-full w-1/2 min-w-[280px] p-10 bg-gradient-to-br from-primary-600 to-primary-300 flex flex-col items-end justify-end gap-8 translate-x-full opacity-0 transition-all ease-in-out duration-500'>
                         <Link href='/'>
                             <a className="text-primary-100 font-medium text-3xl hover:underline hover:underline-offset-8 hover:mr-2 transition-all ease-linear duration-300">Home</a>
