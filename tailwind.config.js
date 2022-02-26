@@ -13,7 +13,8 @@ module.exports = {
       current: 'currentColor',
       'primary': colors.indigo,
       'white': colors.white,
-      'neutral': '#f9f9fc',
+      'neutral': '#f6f6fc',
+      'yellow': '#eec01c',
       'dark-gray': '#333333',
       'light-gray': '#c4c4c4',
       'gray': '#121212'
