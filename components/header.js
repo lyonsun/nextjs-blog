@@ -25,14 +25,14 @@ function handleBackDropClick(e) {
 
 export default function Header() {
     return (
-        <header className="bg-neutral fixed top-0 left-0 w-full z-50">
+        <header className="bg-neutral dark:bg-gray fixed top-0 left-0 w-full z-50">
             <div className='relative px-5 py-8 max-w-[1200px] mx-auto flex justify-between items-center uppercase'>
                 <Link href='/'>
                     <a className='text-primary-600 font-semibold flex gap-1 items-center mr-4 h-9'>
                         <span className='text-white bg-primary-600 text-xs rounded-full w-5 h-5 inline-flex justify-center items-center'>B</span> utterfly
                     </a>
                 </Link>
-                <nav className='hidden md:flex gap-12 text-sm tracking-widest'>
+                <nav className='hidden md:flex gap-12 text-sm tracking-widest dark:text-white'>
                     <Link href='/'>
                         <a className="hover:underline hover:underline-offset-8">Home</a>
                     </Link>
@@ -52,7 +52,7 @@ export default function Header() {
 
                 {/* hamburger menu */}
                 <button className='cursor-pointer md:hidden z-20' id="btn-mobile-menu-toggle" aria-label="Mobile Menu Toggle" aria-controls="mobile-menu" aria-expanded="false" onClick={handleClick}>
-                    <i className="fa-solid fa-bars h-9 w-9 flex justify-center items-center"></i>
+                    <i className="fa-solid fa-bars h-9 w-9 flex justify-center items-center dark:text-white"></i>
                 </button>
 
                 {/* mobile menu */}
