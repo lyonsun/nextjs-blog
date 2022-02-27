@@ -4,13 +4,13 @@ export default function Portfolio() {
     return (
         <section className="portfolio pt-12 pb-16 md:pb-32">
             <div className="max-w-[1200px] mx-auto px-5">
-                <div className="portfolio__heading grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 text-center md:text-left mb-8 md:mb-12">
+                <div className="portfolio__heading grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 items-end text-center md:text-left mb-8 md:mb-12">
                     <div className="heading-text relative">
                         <div className="heading__image absolute top-[-48px] left-[50%] md:-left-10 z-[-1]">
                             <Image width="80" height="80" layout="fixed" src="/images/triangle.svg" alt="Heading Background Image" />
                         </div>
                         <h1 className="uppercase font-medium text-primary-600">Portfolio</h1>
-                        <div className="font-semibold text-3xl lg:text-5xl leading-[56px] mt-2 mb-3">Selected Works.</div>
+                        <div className="font-semibold text-3xl lg:text-5xl leading-[56px] mt-2">Selected Works.</div>
                     </div>
                     <div className="heading-description text-gray opacity-70">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae blandit lectus. Praesent at hendrerit velit, at dictum nisl.
