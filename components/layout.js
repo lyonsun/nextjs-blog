@@ -1,6 +1,7 @@
 import styles from './layout.module.css';
 import Header from './header';
 import Head from 'next/head';
+import Footer from './footer';
 
 export default function Layout({ children }) {
     return (
@@ -11,6 +12,7 @@ export default function Layout({ children }) {
             </Head>
             <Header />
             <main className='mt-[100px]'>{children}</main>
+            <Footer />
         </>
     );
 }
