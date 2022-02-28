@@ -30,8 +30,8 @@ export default function Header() {
             <div className='relative px-5 py-8 max-w-[1200px] mx-auto flex justify-between items-center uppercase'>
                 <div className="flex-1 flex items-center justify-between">
                     <Link href='/'>
-                        <a className='text-primary-600 font-semibold flex gap-1 items-center mr-4 h-9'>
-                            <span className='text-white bg-primary-600 text-xs rounded-full w-5 h-5 inline-flex justify-center items-center'>B</span> utterfly
+                        <a className='text-primary-600 font-semibold text-2xl flex gap-2 items-center h-9'>
+                            <span className='text-white bg-primary-600 text-lg rounded-full w-8 h-8 inline-flex justify-center items-center'>B</span>utterfly
                         </a>
                     </Link>
                     <nav className='hidden md:flex gap-12 text-sm tracking-widest dark:text-white'>

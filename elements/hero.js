@@ -15,7 +15,7 @@ export default function Hero() {
                             <a className="uppercase px-10 py-6 text-white bg-primary-600 rounded-full text-sm font-medium border border-primary-600 hover:text-primary-600 hover:bg-white transition-colors ease-linear duration-300"><i className="fa-regular fa-envelope mr-2"></i> CONTACT ME</a>
                         </Link>
                         <Link href="/cv/curriculum-vitae-x.pdf">
-                            <a className="uppercase px-10 py-6 text-jet dark:text-white text-sm font-medium rounded-full hover:bg-primary-100 dark:hover:bg-primary-600 transition-colors ease-linear duration-300" download target='__blank'><i className="fa-solid fa-download mr-2"></i> DOWNLOAD CV</a>
+                            <a className="uppercase px-10 py-6 text-jet dark:text-white text-sm font-medium rounded-full hover:bg-white dark:hover:bg-davys-gray transition-colors ease-linear duration-300" download target='__blank'><i className="fa-solid fa-download mr-2"></i> DOWNLOAD CV</a>
                         </Link>
                     </div>
                 </div>
