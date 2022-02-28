@@ -15,9 +15,10 @@ module.exports = {
       'white': colors.white,
       'neutral': '#f6f6fc',
       'yellow': '#eec01c',
-      'dark-gray': '#333333',
-      'light-gray': '#c4c4c4',
-      'gray': '#121212'
+      'jet': '#333333',
+      'davys-gray': '#4f4f4f',
+      'silver': '#c4c4c4',
+      'smoky-black': '#121212'
     }
   },
   plugins: [],

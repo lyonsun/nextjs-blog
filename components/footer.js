@@ -3,14 +3,14 @@ import Link from "next/link"
 
 export default function Footer() {
     return (
-        <footer className="footer pt-9 dark:bg-gray">
-            <div className="footer__inner mx-5 2xl:mx-14 pt-20 lg:pt-28 px-8 md:px-24 2xl:px-40 rounded-t-3xl bg-dark-gray text-white">
+        <footer className="footer pt-9 dark:bg-jet">
+            <div className="footer__inner mx-5 2xl:mx-14 pt-20 lg:pt-28 px-8 md:px-24 2xl:px-40 rounded-t-3xl bg-jet text-white">
                 <div className="footer__primary grid grid-cols-1 md:grid-cols-[1fr_auto] gap-x-4 gap-y-12 place-items-center md:place-items-start pb-12 md:pb-20 border-b border-b-light-gray">
                     <div className="footer__primary__general max-w-sm text-center md:text-left">
                         <div className="footer__primary__general__logo mb-6">
                             <Link href='/'>
                                 <a className='text-white font-semibold flex gap-2 justify-center md:justify-start items-center mr-4 h-9 text-4xl uppercase'>
-                                    <span className='text-dark-gray bg-white text-3xl rounded-full w-10 h-10 inline-flex justify-center items-center'>B</span> utterfly
+                                    <span className='text-jet bg-white text-3xl rounded-full w-10 h-10 inline-flex justify-center items-center'>B</span> utterfly
                                 </a>
                             </Link>
                         </div>

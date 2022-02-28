@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Clients() {
     return (
-        <section className="clients dark:bg-gray">
+        <section className="clients dark:bg-jet">
             <div className="max-w-[1200px] mx-auto py-16 md:py-32 px-5">
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-7 md:gap-20">
                     <div className="logo justify-self-center h-14 w-full max-w-[215px]">
