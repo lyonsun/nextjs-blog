@@ -8,6 +8,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.0.0",
     "next": "latest",
+    "next-themes": "^0.1.1",
     "react": "17.0.2",
     "react-countup": "^6.1.1",
     "react-dom": "17.0.2",

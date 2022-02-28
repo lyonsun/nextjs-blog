@@ -1,4 +1,5 @@
 import Link from "next/link"
+import ThemeChanger from "./theme-changer";
 
 function handleClick() {
     if (document.getElementById('btn-mobile-menu-toggle').getAttribute('aria-expanded') == 'false') {
@@ -27,28 +28,32 @@ export default function Header() {
     return (
         <header className="bg-neutral dark:bg-jet fixed top-0 left-0 w-full z-50">
             <div className='relative px-5 py-8 max-w-[1200px] mx-auto flex justify-between items-center uppercase'>
-                <Link href='/'>
-                    <a className='text-primary-600 font-semibold flex gap-1 items-center mr-4 h-9'>
-                        <span className='text-white bg-primary-600 text-xs rounded-full w-5 h-5 inline-flex justify-center items-center'>B</span> utterfly
-                    </a>
-                </Link>
-                <nav className='hidden md:flex gap-12 text-sm tracking-widest dark:text-white'>
+                <div className="flex-1 flex items-center justify-between">
                     <Link href='/'>
-                        <a className="hover:underline hover:underline-offset-8">Home</a>
+                        <a className='text-primary-600 font-semibold flex gap-1 items-center mr-4 h-9'>
+                            <span className='text-white bg-primary-600 text-xs rounded-full w-5 h-5 inline-flex justify-center items-center'>B</span> utterfly
+                        </a>
                     </Link>
-                    <Link href='/about'>
-                        <a className="hover:underline hover:underline-offset-8">About</a>
+                    <nav className='hidden md:flex gap-12 text-sm tracking-widest dark:text-white'>
+                        <Link href='/'>
+                            <a className="hover:underline hover:underline-offset-8">Home</a>
+                        </Link>
+                        <Link href='/about'>
+                            <a className="hover:underline hover:underline-offset-8">About</a>
+                        </Link>
+                        <Link href='/services'>
+                            <a className="hover:underline hover:underline-offset-8">Services</a>
+                        </Link>
+                        <Link href='/work'>
+                            <a className="hover:underline hover:underline-offset-8">Work</a>
+                        </Link>
+                    </nav>
+                    <Link href='mailto:sunly917@gmail.com'>
+                        <a className='hidden md:block md:mr-4 px-6 py-2 text-white bg-primary-600 rounded-full text-sm hover:outline hover:outline-1 hover:outline-primary-600 hover:text-primary-600 hover:bg-white transition-colors ease-linear duration-300'>Hire Me<i className="ml-2 fa-regular fa-envelope"></i></a>
                     </Link>
-                    <Link href='/services'>
-                        <a className="hover:underline hover:underline-offset-8">Services</a>
-                    </Link>
-                    <Link href='/work'>
-                        <a className="hover:underline hover:underline-offset-8">Work</a>
-                    </Link>
-                </nav>
-                <Link href='mailto:sunly917@gmail.com'>
-                    <a className='hidden md:block md:mr-4 px-6 py-2 text-white bg-primary-600 rounded-full text-sm hover:outline hover:outline-1 hover:outline-primary-600 hover:text-primary-600 hover:bg-white transition-colors ease-linear duration-300'>Hire Me<i className="ml-2 fa-regular fa-envelope"></i></a>
-                </Link>
+                </div>
+
+                <ThemeChanger />
 
                 {/* hamburger menu */}
                 <button className='cursor-pointer md:hidden z-20' id="btn-mobile-menu-toggle" aria-label="Mobile Menu Toggle" aria-controls="mobile-menu" aria-expanded="false" onClick={handleClick}>
