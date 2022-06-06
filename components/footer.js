@@ -9,8 +9,8 @@ export default function Footer() {
                     <div className="footer__primary__general max-w-sm text-center md:text-left">
                         <div className="footer__primary__general__logo mb-6">
                             <Link href='/'>
-                                <a className='text-white font-semibold flex gap-2 justify-center md:justify-start items-center mr-4 h-9 text-4xl uppercase'>
-                                    <span className='text-jet bg-white text-3xl rounded-full w-10 h-10 inline-flex justify-center items-center'>B</span> utterfly
+                                <a className='text-white font-semibold flex gap-2 justify-center md:justify-start items-center mr-4 h-9 text-4xl uppercase hover:animate-pulse'>
+                                    <span className='text-jet bg-white text-2xl rounded-full w-10 h-10 inline-flex justify-center items-center'>LS</span>
                                 </a>
                             </Link>
                         </div>

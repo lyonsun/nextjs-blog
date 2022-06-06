@@ -5,9 +5,9 @@ export default function Testimony() {
         <section className="testimony">
             <div className="testimony__heading bg-neutral dark:bg-jet pt-16 md:pt-24 pb-32 md:pb-40 px-5 text-center">
                 <div className="heading-text relative max-w-[1200px] mx-auto flex flex-col items-center">
-                    <h1 className="uppercase font-medium text-primary-600 pt-10 pb-4 px-10 bg-[url('/images/triangle.svg')] bg-no-repeat bg-[length:80px_80px] bg-[center_right_1rem] md:bg-center">Testimony</h1>
+                    <h1 className="uppercase font-medium text-primary-500 pt-10 pb-4 px-10 bg-[url('/images/triangle.svg')] bg-no-repeat bg-[length:80px_80px] bg-[center_right_1rem] md:bg-center">Testimony</h1>
                     <div className="font-semibold text-3xl lg:text-5xl leading-[56px] mt-2 mb-3 dark:text-white">What Our Clients Say.</div>
-                    <div className="heading-description text-smoky-black dark:text-white opacity-70 max-w-[600px]">
+                    <div className="heading-description text-smoky-black dark:text-white opacity-70 max-w-[500px]">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae blandit lectus. Praesent at hendrerit velit, at dictum nisl.
                     </div>
                 </div>
@@ -27,7 +27,7 @@ export default function Testimony() {
                         </div>
                         <div className="testimony__card-footer flex gap-4 justify-between items-center">
                             <div className="testimony__card-author flex flex-wrap items-center gap-4">
-                                <div className="testimony__card-author-image bg-primary-600 h-16 w-16 rounded-full overflow-hidden">
+                                <div className="testimony__card-author-image bg-primary-500 h-16 w-16 rounded-full overflow-hidden">
                                     <Image src={`https://unsplash.it/id/${Math.floor(Math.random() * 100)}/100/100`} alt="Testimony Author" width={100} height={100} />
                                 </div>
                                 <div className="testimony__card-author-info">
@@ -40,7 +40,7 @@ export default function Testimony() {
                                 </div>
                             </div>
                             <div className="testimony__card-review-icon">
-                                <i className="fa-regular fa-message fa-3x text-primary-600"></i>
+                                <i className="fa-regular fa-message fa-3x text-primary-500"></i>
                             </div>
                         </div>
                     </div>
@@ -57,7 +57,7 @@ export default function Testimony() {
                         </div>
                         <div className="testimony__card-footer flex gap-4 justify-between items-center">
                             <div className="testimony__card-author flex flex-wrap items-center gap-4">
-                                <div className="testimony__card-author-image bg-primary-600 h-16 w-16 rounded-full overflow-hidden">
+                                <div className="testimony__card-author-image bg-primary-500 h-16 w-16 rounded-full overflow-hidden">
                                     <Image src={`https://unsplash.it/id/${Math.floor(Math.random() * 100)}/100/100`} alt="Testimony Author" width={100} height={100} />
                                 </div>
                                 <div className="testimony__card-author-info">
@@ -70,7 +70,7 @@ export default function Testimony() {
                                 </div>
                             </div>
                             <div className="testimony__card-review-icon">
-                                <i className="fa-regular fa-message fa-3x text-primary-600"></i>
+                                <i className="fa-regular fa-message fa-3x text-primary-500"></i>
                             </div>
                         </div>
                     </div>

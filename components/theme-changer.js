@@ -6,8 +6,6 @@ const ThemeChanger = () => {
     const [mounted, setMounted] = useState(false)
     const { theme, systemTheme, setTheme } = useTheme()
 
-    console.log(theme, systemTheme)
-
     // When mounted on client, now we can show the UI
     useEffect(() => setMounted(true), [])
 

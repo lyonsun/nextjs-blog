@@ -8,7 +8,7 @@ export default function Layout({ children }) {
         <>
             <Head>
                 <meta name="description" content="I'm a web developer based in Espoo. I'm passionate about building web applications and solving problems." />
-                <title>Butterfly - Liang Sun's Protfolio</title>
+                <title>Liang Sun</title>
             </Head>
             <Header />
             <main className='mt-[100px]'>{children}</main>

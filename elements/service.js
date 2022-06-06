@@ -9,7 +9,7 @@ export default function Service() {
                         <Image width="80" height="80" layout="fixed" src="/images/triangle.svg" alt="Heading Background Image" />
                     </div> */}
                     <div className="heading__text">
-                        <h1 className="uppercase font-medium text-primary-600 pt-10 pb-4 px-10 bg-[url('/images/triangle.svg')] bg-no-repeat bg-[length:80px_80px] bg-center">Services</h1>
+                        <h1 className="uppercase font-medium text-primary-500 pt-10 pb-4 px-10 bg-[url('/images/triangle.svg')] bg-no-repeat bg-[length:80px_80px] bg-center">Services</h1>
                         <div className="font-semibold text-3xl lg:text-5xl leading-[56px] mt-2 mb-3 dark:text-white">What I Do For My Customer.</div>
                         <div className="text-smoky-black dark:text-white opacity-70 max-w-xl mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae blandit lectus. Praesent at hendrerit velit, at dictum nisl.</div>
                     </div>
@@ -20,7 +20,7 @@ export default function Service() {
                             <Image width="42" height="42" layout="fixed" src="/images/service-ui-ux-design.svg" alt="UX/UI Design Service Image" />
                         </div>
                         <div className="card__text">
-                            <h2 className="font-medium text-primary-600 mb-2">UI/UX Design</h2>
+                            <h2 className="font-medium text-primary-500 mb-2">UI/UX Design</h2>
                             <div className="text-smoky-black dark:text-white opacity-70 max-w-xl mx-auto">lorem ipsum dolor sit amet consectur adi pising leo</div>
                         </div>
                     </div>
@@ -29,7 +29,7 @@ export default function Service() {
                             <Image width="42" height="42" layout="fixed" src="/images/service-product-design.svg" alt="Product Design Service Image" />
                         </div>
                         <div className="card__text">
-                            <h2 className="font-medium text-primary-600 mb-2">Web Development</h2>
+                            <h2 className="font-medium text-primary-500 mb-2">Web Development</h2>
                             <div className="text-smoky-black dark:text-white opacity-70 max-w-xl mx-auto">lorem ipsum dolor sit amet consectur adi pising leo</div>
                         </div>
                     </div>
@@ -38,7 +38,7 @@ export default function Service() {
                             <Image width="42" height="42" layout="fixed" src="/images/service-motion-graphics.svg" alt="Motion Graphics Service Image" />
                         </div>
                         <div className="card__text">
-                            <h2 className="font-medium text-primary-600 mb-2">System Architecture</h2>
+                            <h2 className="font-medium text-primary-500 mb-2">System Architecture</h2>
                             <div className="text-smoky-black dark:text-white opacity-70 max-w-xl mx-auto">lorem ipsum dolor sit amet consectur adi pising leo</div>
                         </div>
                     </div>
